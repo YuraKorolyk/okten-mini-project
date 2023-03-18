@@ -1,0 +1,76 @@
+body {
+    max-width: 1100px;
+    margin: 40px auto 0;
+    background: #51d4ff;
+}
+.container {
+    background: #f2f2f2;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 40px;
+}
+.container ul {
+    padding: 0;
+}
+.container li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+.container li:last-child {
+    margin-bottom: 0;
+}
+.btn {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 2px 15px 2px 40px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+}
+.arrow {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: .2s;
+}
+.btn:hover > .arrow{
+    transform: translate(-5px, -50%);
+}
+.post-btn {
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.title-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+.title-link {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.title-link div {
+    flex: 1;
+}
+.li-btn {
+    margin-top: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+    color: black;
+    text-decoration: none;
+}
+.li-btn:hover {
+    background: aquamarine;
+}
