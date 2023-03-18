@@ -16,9 +16,6 @@ body {
     list-style: none;
     margin-bottom: 6px;
 }
-.container li:last-child {
-    margin-bottom: 0;
-}
 .btn {
     border: 1px solid #000;
     border-radius: 3px;
